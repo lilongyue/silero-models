@@ -7,7 +7,7 @@ from typing import List
 from itertools import groupby
 
 
-torchaudio.set_audio_backend("sox")  # switch backend
+torchaudio.set_audio_backend("sox_io")  # switch backend
 
 
 def read_batch(audio_paths: List[str]):
